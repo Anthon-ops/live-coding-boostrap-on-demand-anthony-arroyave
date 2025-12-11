@@ -1,0 +1,43 @@
+/* global */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+/* headings */
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  font-family: "Electrolize", sans-serif;
+}
+/* variables */
+:root {
+  --bl: rgb(0, 82, 255);
+  --lb: rgb(216, 249, 255);
+  --w: rbg(247, 247, 247);
+}
+/* body */
+body {
+  background-color: var(--lb);
+  color: var(--w);
+}
+/* class custom */
+bg-bl {
+  background-color: var(--bl);
+}
+bg-lb {
+  background-color: var(--lb);
+}
+bg-w {
+  background-color: var(--w);
+}
+text-bl {
+  color: var(--bl);
+}
+text-lb {
+  color: var(--lb);
+}
+text-w {
+  color: var(--w);
+}
