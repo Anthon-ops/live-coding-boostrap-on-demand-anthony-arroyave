@@ -1,43 +1,107 @@
-/* global */
-* {
-  font-family: "Montserrat", sans-serif;
-}
-/* headings */
-h1,
-h2,
-h3,
-.h1,
-.h2,
-.h3 {
-  font-family: "Electrolize", sans-serif;
-}
-/* variables */
-:root {
-  --bl: rgb(0, 82, 255);
-  --lb: rgb(216, 249, 255);
-  --w: rbg(247, 247, 247);
-}
-/* body */
+/* BASE */
 body {
-  background-color: var(--lb);
-  color: var(--w);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
-/* class custom */
-bg-bl {
-  background-color: var(--bl);
+
+h1, h2, h3, h4 {
+  font-weight: 700;
 }
-bg-lb {
-  background-color: var(--lb);
+
+/* HERO */
+.hero-section {
+  padding: 100px 0;
 }
-bg-w {
-  background-color: var(--w);
+
+.hero-section .logo {
+  width: 160px;
 }
-text-bl {
-  color: var(--bl);
+
+.hero-section .tagline {
+  color: #ff00ff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
-text-lb {
-  color: var(--lb);
+
+.hero-section .main-title {
+  font-size: 2.8rem;
+  color: #00eaff;
+  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
+  animation: neonPulse 2.5s infinite alternate;
+  max-width: 450px;
 }
-text-w {
-  color: var(--w);
+
+.hero-section .subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
 }
+
+.hero-section .date {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.hero-section .btn-main {
+  background-color: #ff00ff;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.hero-section .btn-main:hover {
+  background-color: #cc00cc;
+}
+
+.hero-section .arcade-img {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* DESCRIZIONE */
+.desc-section {
+  padding: 80px 0;
+}
+
+.desc-section .icon {
+  max-width: 120px;
+  margin-bottom: 20px;
+}
+
+.desc-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* FORM */
+#form {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 80px 0;
+}
+
+#form h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#form .date {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#form .form-card {
+  background-color: #f7f7f7;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0
