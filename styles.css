@@ -1,67 +1,46 @@
 /* BASE */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   background-color: #0d0d0d;
   color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-weight: 700;
 }
 
-/* HERO */
-.hero-section {
-  padding: 100px 0;
+/* HERO(HEADER) */
+header {
+  background-image: url("media/bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .hero-section .logo {
   width: 160px;
 }
-
-.hero-section .tagline {
-  color: #ff00ff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-.hero-section .main-title {
-  font-size: 2.8rem;
-  color: #00eaff;
-  text-shadow: 0 0 10px #00eaff, 0 0 20px #00eaff;
-  animation: neonPulse 2.5s infinite alternate;
-  max-width: 450px;
-}
-
-.hero-section .subtitle {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-.hero-section .date {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-top: 15px;
-}
-
 .hero-section .btn-main {
-  background-color: #ff00ff;
-  border: none;
-  padding: 14px 28px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-radius: 8px;
+  color: #d6c330;
+  border: #d6c330 2px solid;
+  padding: 10px 40px;
+  border-radius: 20px;
   margin-top: 25px;
 }
 
 .hero-section .btn-main:hover {
-  background-color: #cc00cc;
+  background-color: #d6c330;
+  color: #f7f7f7;
 }
 
 .hero-section .arcade-img {
   width: 100%;
+  padding: 0 auto;
   max-width: 420px;
   margin: 0 auto;
   display: block;
@@ -69,18 +48,9 @@ h1, h2, h3, h4 {
 
 /* DESCRIZIONE */
 .desc-section {
-  padding: 80px 0;
+  background-color: #1b1540;
 }
 
-.desc-section .icon {
-  max-width: 120px;
-  margin-bottom: 20px;
-}
-
-.desc-section p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-}
 
 /* FORM */
 #form {
@@ -104,4 +74,4 @@ h1, h2, h3, h4 {
   background-color: #f7f7f7;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0
+}

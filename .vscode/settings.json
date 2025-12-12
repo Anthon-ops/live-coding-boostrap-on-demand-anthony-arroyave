@@ -23,5 +23,6 @@
     "titleBar.inactiveBackground": "#458f0e99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#458f0e"
+  "peacock.color": "#458f0e",
+  "commentTranslate.hover.enabled": true
 }
